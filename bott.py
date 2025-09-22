@@ -18,7 +18,7 @@ from telegram.ext import (
 )
 
 # === Config ===
-BOT_TOKEN = "8424490063:AAFWgvwTNpxx3IObEv2BrVPY_rbrQ7vdgZw"  # set this in your environment
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 BACKUP_DIR = "./backups"
 LOG_FILE = "bot.log"
 
